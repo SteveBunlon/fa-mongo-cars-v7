@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "sourceMap": false,
+    "target": "es2017",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "types" : ["node", "express", "forest-express-mongoose", "mongoose"],
+    "allowJs": true
+  },
+  "include": ["./**/*", ".env"],
+  "exclude": ["node_modules", "dist"]
+}

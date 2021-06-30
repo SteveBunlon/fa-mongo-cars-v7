@@ -1,0 +1,32 @@
+###
+
+# curl 'http://localhost:3310/forest/cars?timezone=Europe%2FParis&fields%5Bcars%5D=_id%2Ccompany%2Cname%2CwheelSize&fields%5Bcompany%5D=name&page%5Bnumber%5D=1&page%5Bsize%5D=15&searchExtended=0&sort=-engine.identification.manufacturer'
+#  -H 'Connection: keep-alive'
+#  -H 'sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"'
+#  -H 'Accept: application/json'
+#  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUiLCJlbWFpbCI6InN0ZXZlYkBmb3Jlc3RhZG1pbi5jb20iLCJmaXJzdE5hbWUiOiJzdGV2ZSIsImxhc3ROYW1lIjoiYnVubG9uIiwidGVhbSI6Ik9wZXJhdGlvbnMiLCJyZW5kZXJpbmdJZCI6NzQsImlhdCI6MTYyNDI3MDMxMSwiZXhwIjoxNjI0MjczOTExfQ.NiF6yn4XcoikhkYHRF570DjPnFv_JCc9CD-6I5kl68U'
+#  -H 'sec-ch-ua-mobile: ?0'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36'
+#  -H 'Content-Type: application/json'
+#  -H 'Origin: https://app.development.forestadmin.com'
+#  -H 'Sec-Fetch-Site: cross-site'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7'
+#  --compressed
+GET http://localhost:3310/forest/cars?timezone=Europe%2FParis&fields%5Bcars%5D=_id%2Cengine%7Cidentification%7Cmanufacturer%2Ccompany%2Cname%2CwheelSize&fields%5Bcompany%5D=name&page%5Bnumber%5D=1&page%5Bsize%5D=15&searchExtended=0&sort=-engine.identification.manufacturer
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Accept: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUiLCJlbWFpbCI6InN0ZXZlYkBmb3Jlc3RhZG1pbi5jb20iLCJmaXJzdE5hbWUiOiJzdGV2ZSIsImxhc3ROYW1lIjoiYnVubG9uIiwidGVhbSI6Ik9wZXJhdGlvbnMiLCJyZW5kZXJpbmdJZCI6NzQsImlhdCI6MTYyNDM1MjMwNiwiZXhwIjoxNjI0MzU1OTA2fQ.DNTIKdCcCcRRLqdLxmtFZnTwTzik9-vaS3Ya_7NzNf0
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+Origin: https://app.development.forestadmin.com
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Language: en-GB,en-US;q=0.9,en;q=0.8,fr;q=0.7
+Content-Type: application/json
+
+###
+
